@@ -1,0 +1,115 @@
+{
+    "kind": "singleType",
+    "collectionName": "about_pages",
+    "info": {
+        "singularName": "about-page",
+        "pluralName": "about-pages",
+        "displayName": "About Page",
+        "description": "Full about page with principal and director messages"
+    },
+    "options": {
+        "increments": true,
+        "timestamps": true,
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "heroImage": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "yearsOfExcellence": {
+            "type": "integer",
+            "default": 15
+        },
+        "yearsOfExcellenceLabel": {
+            "type": "string",
+            "default": "Years of Excellence"
+        },
+        "brightStudents": {
+            "type": "integer",
+            "default": 500
+        },
+        "brightStudentsLabel": {
+            "type": "string",
+            "default": "Bright Students"
+        },
+        "expertTeachers": {
+            "type": "integer",
+            "default": 40
+        },
+        "expertTeachersLabel": {
+            "type": "string",
+            "default": "Expert Teachers"
+        },
+        "identityLabel": {
+            "type": "string",
+            "default": "Our Identity"
+        },
+        "identityHeading": {
+            "type": "string",
+            "default": "Dedicated to Holistic, World-Class Education"
+        },
+        "identityTagline": {
+            "type": "text"
+        },
+        "introParagraphs": {
+            "type": "json"
+        },
+        "identityImage": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "missionStatement": {
+            "type": "text"
+        },
+        "principalName": {
+            "type": "string",
+            "default": "Principal"
+        },
+        "principalTitle": {
+            "type": "string",
+            "default": "Future Gate Indian School Sharjah"
+        },
+        "principalQuote": {
+            "type": "text"
+        },
+        "principalMessage": {
+            "type": "text"
+        },
+        "principalImage": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "directorName": {
+            "type": "string",
+            "default": "Director"
+        },
+        "directorTitle": {
+            "type": "string",
+            "default": "Future Gate Indian School Sharjah"
+        },
+        "directorQuote": {
+            "type": "text"
+        },
+        "directorMessage": {
+            "type": "text"
+        },
+        "directorImage": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images"
+            ]
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "co_curricular_activities",
+  "info": {
+    "singularName": "co-curricular-activity",
+    "pluralName": "co-curricular-activities",
+    "displayName": "Curricular Activity Section",
+    "description": "Homepage co-curricular activities section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "default": "Nurturing the Whole Child"
+    },
+    "headlineAccent": {
+      "type": "string",
+      "default": "Beyond the Classroom"
+    },
+    "introParagraph1": {
+      "type": "richtext"
+    },
+    "introParagraph2": {
+      "type": "richtext"
+    },
+    "headerImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

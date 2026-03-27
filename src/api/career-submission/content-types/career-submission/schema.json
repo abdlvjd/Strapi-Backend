@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "career_submissions",
+  "info": {
+    "singularName": "career-submission",
+    "pluralName": "career-submissions",
+    "displayName": "Career Submission",
+    "description": "Form submissions from the Careers page"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "cvLink": {
+      "type": "string",
+      "required": false
+    },
+    "message": {
+      "type": "text"
+    },
+    "date": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    }
+  }
+}

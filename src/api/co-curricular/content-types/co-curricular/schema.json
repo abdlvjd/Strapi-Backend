@@ -1,0 +1,81 @@
+{
+  "kind": "singleType",
+  "collectionName": "co_curriculars",
+  "info": {
+    "singularName": "co-curricular",
+    "pluralName": "co-curriculars",
+    "displayName": "Co-Curricular Page",
+    "description": "Co-curricular programs page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+
+ 
+    "introLabel": {
+      "type": "string",
+      "default": "Holistic Growth"
+    },
+    "introHeading": {
+      "type": "string",
+      "default": "Nurturing the Whole Child"
+    },
+    "introParagraph1": {
+      "type": "richtext"
+    },
+  
+    "benefits": {
+      "type": "json"
+    },
+    "introImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "stat1Value": {
+      "type": "string",
+      "default": "20+"
+    },
+    "stat1Label": {
+      "type": "string",
+      "default": "Clubs & Activities"
+    },
+    "stat2Value": {
+      "type": "string",
+      "default": "500+"
+    },
+    "stat2Label": {
+      "type": "string",
+      "default": "Active Participants"
+    },
+    "stat3Value": {
+      "type": "string",
+      "default": "15+"
+    },
+    "stat3Label": {
+      "type": "string",
+      "default": "Awards Won"
+    },
+    "stat4Value": {
+      "type": "string",
+      "default": "10+"
+    },
+    "stat4Label": {
+      "type": "string",
+      "default": "Annual Events"
+    }
+  }
+}

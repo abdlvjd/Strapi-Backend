@@ -1,0 +1,39 @@
+{
+    "kind": "collectionType",
+    "collectionName": "news",
+    "info": {
+        "singularName": "news",
+        "pluralName": "news-items",
+        "displayName": "News",
+        "description": "News articles and updates"
+    },
+    "options": {
+        "increments": true,
+        "timestamps": true,
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "date": {
+            "type": "date"
+        },
+        "author": {
+            "type": "string"
+        },
+        "content": {
+            "type": "richtext"
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images"
+            ]
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_sections",
+  "info": {
+    "singularName": "about-section",
+    "pluralName": "about-sections",
+    "displayName": "About Us Section",
+    "description": "Homepage about section with cards"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "introText": {
+      "type": "string"
+    },
+    "introHighlight": {
+      "type": "string"
+    },
+    "descriptionParagraph1": {
+      "type": "richtext"
+    },
+    "descriptionParagraph2": {
+      "type": "richtext"
+    },
+    "cards": {
+      "type": "json"
+    }
+  }
+}
